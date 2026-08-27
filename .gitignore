@@ -1,0 +1,12 @@
+/build
+.venv
+node_modules
+**/android/.gradle
+**/ios/Pods
+**/*.iml
+**/*.lock
+.env
+.env.*
+.DS_Store
+/.idea
+/.vscode

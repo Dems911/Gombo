@@ -1,0 +1,27 @@
+{
+  "name": "gombo-backend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "node dist/main.js",
+    "dev": "nest start --watch",
+    "build": "nest build",
+    "prisma:generate": "prisma generate",
+    "prisma:migrate": "prisma migrate dev --name init"
+  },
+  "dependencies": {
+    "@nestjs/common": "^9.0.0",
+    "@nestjs/core": "^9.0.0",
+    "@nestjs/platform-express": "^9.0.0",
+    "prisma": "^4.0.0",
+    "@prisma/client": "^4.0.0",
+    "class-validator": "^0.13.1",
+    "class-transformer": "^0.5.1",
+    "bull": "^4.0.2",
+    "ioredis": "^4.28.5"
+  },
+  "devDependencies": {
+    "@nestjs/cli": "^9.0.0",
+    "typescript": "^4.7.4"
+  }
+}
